@@ -1,0 +1,86 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Xiaowu (Horace) He}
+
+\basicInfo{
+  \email{horacehxw@gmail.com} \textperiodcentered\ 
+  \phone{(510)944-6937} \textperiodcentered\ 
+  \linkedin{https://www.linkedin.com/in/horacehxw}}
+  
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{University of California, Berkeley}, California, America}{2017 -- Present}
+\textit{Exchange Study} in Computer Science and Electronic Engineering, Spring 2017
+\begin{itemize}
+%  \item GPA: ----
+  \item Relative Course: Data Structure (CS 61B), Computer Architechture (CS 61C), Probability and Random Process (EE 126), Innovation and Entrepreneurship (UGBA 196)
+\end{itemize}
+
+\datedsubsection{\textbf{University of Electronic Science and Technology of China}, Sichuan, China}{2015 -- Present}
+\textit{Study} in Yingcai Honors College, \textit{Major} at Computer Science
+
+\section{\faUsers\ Projects}
+\datedsubsection{\textbf{Two Stage Pipelined CPU}}{Mar. 2017 -- Present}
+Using Logisim to implement a simple 16-bit two-cycle processor, with an ISA that uses a subset of MIPS instructions on a slightly different archticture.
+
+\datedsubsection{\textbf{Relational Database Management System} }{Feb. 2017 -- Mar. 2017}
+%\role{Java}{Course Project in CS 61B}
+Created a program that accepts a limited range of commands, similar to the Redis Database. Accepts input from stdin or a file.
+\begin{itemize}
+  \item Implemented by Java.
+  \item Accept table join, condition and arithmetic operation.
+%  \item See spec: http://datastructur.es/sp17/materials/proj/proj2/proj2.html#overview.
+\end{itemize}
+
+\datedsubsection{\textbf{Digital Communication System}}{Mar. 2017 -- Mar. 2017}
+%\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
+Build a system from scratch to transmit a text file between two laptops, using only the speakers and microphones of the computers.
+\begin{itemize}
+  \item Implemented in Python, using numpy, reedsolo and pyaudio library.
+  \item Bit-rate of at least 100 bits per second.
+  \item Apply RS-code as error correction.
+\end{itemize}
+
+\datedsubsection{\textbf{MIPS assembler and linker}}{Mar. 2017 -- Mar. 2017}
+Translates a subset of the MIPS instruction set to machine code. The assembler is a two-pass assembler to resolve forwarding problem.
+\begin{itemize}
+  \item Implemented in C and MIPS assembly.
+  \item Use two-pass assemble process to avoid forwarding problem.
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Proficiency: C, Java
+  \item Intermediate: Python, MIPS, Git
+  \item Basic: C++, Matlab, Microsoft Office Suite
+\end{itemize}
+
+\section{\faHeartO\ Honors and Awards}
+\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
+\datedline{Other awards}{2015}
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+%  \item Blog: http://your.blog.me
+  \item GitHub: https://github.com/Horacehxw
+  \item Languages: English - Working Proficiency, Mandarin - Native speaker
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
